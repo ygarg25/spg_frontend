@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>SPG FINANCIAL SERVICES</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<!-- FONTS -->
+	<link
+		href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic'
+		rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+
+		//PrettyPhoto
+		jQuery(document).ready(function () {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+
+		//BlackAndWhite
+		$(window).load(function () {
+			$('.client_img').BlackAndWhite({
+				hoverEffect: true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath: false,
+				// for the images with a fluid width and height 
+				responsive: true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity: 1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady: function (img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+	<!-- PRELOADER -->
+	<img id="preloader" src="images/preloader.gif" alt="" />
+	<!-- //PRELOADER -->
+	<div class="preloader_hide">
+
+		<!-- PAGE -->
+		<div id="page">
+
+			<!-- HEADER -->
+			<header>
+
+				<!-- MENU BLOCK -->
+				<div class="menu_block">
+
+					<!-- CONTAINER -->
+					<div class="container clearfix">
+
+						<!-- LOGO -->
+						<div class="logo pull-left">
+							<a href="index.html"><span class="b1">S</span><span class="b3">P</span><span
+									class="b5">G</span></a>
+						</div><!-- //LOGO -->
+
+
+						<!-- MENU -->
+						<div class="pull-right">
+							<nav class="navmenu center">
+								<ul>
+									<li class="first active scroll_btn"><a href="#home">Home</a></li>
+									<li class="scroll_btn"><a href="#about">About Us</a></li>
+									<li class="scroll_btn"><a href="#team">Team</a></li>
+									<li class="scroll_btn last"><a href="#contacts">Contacts</a></li>
+								</ul>
+							</nav>
+						</div><!-- //MENU -->
+					</div><!-- //MENU BLOCK -->
+				</div><!-- //CONTAINER -->
+			</header><!-- //HEADER -->
+
+
+			<!-- HOME -->
+			<section id="home" class="padbot0">
+
+				<!-- TOP SLIDER -->
+				<div class="flexslider top_slider">
+					<ul class="slides">
+						<li class="slide1">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay2 FromTop">Skilled</p>
+								<p class="title2 captionDelay4 FromTop">&</p>
+								<p class="title1 captionDelay2 FromTop">Experienced</p>
+								<p class="title3 captionDelay6 FromTop">Workforcce</p>
+								<p class="title4 captionDelay7 FromBottom">Our staff has been working with us for a long
+									time. They bring with them years of experience of high quality data entry delivery.
+								</p>
+							</div>
+
+						<li class="slide2">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay6 FromLeft">Quality</p>
+								<p class="title2 captionDelay4 FromLeft">&</p>
+								<p class="title1 captionDelay6 FromLeft">Accuracy</p>
+								<p class="title3 captionDelay6 FromTop">Compliance</p>
+								<p class="title4 captionDelay7 FromLeft">We maintain strict control and processes to
+									ensure that accuracy of the inputted data</p>
+							</div>
+
+						</li>
+						<li class="slide3">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay1 FromBottom">Data Collection</p>
+								<p class="title2 captionDelay2 FromBottom">&</p>
+								<p class="title1 captionDelay1 FromBottom">KYC Centre</p>
+								<p class="title4 captionDelay5 FromBottom">We provide physical data collection and KYC
+									centre where end customer can submit data and KYC forms</p>
+							</div>
+
+
+							<!-- VIDEO BACKGROUND -->
+							<!-- <a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a> -->
+							<!-- //VIDEO BACKGROUND -->
+						</li>
+					</ul>
+				</div>
+				<div id="carousel">
+					<ul class="slides">
+						<li><img src="images/slider/slide1_bg.jpg" alt="" /></li>
+						<li><img src="images/slider/slide2_bg.jpg" alt="" /></li>
+						<li><img src="images/slider/slide3_bg.jpg" alt="" /></li>
+					</ul>
+				</div><!-- //TOP SLIDER -->
+			</section><!-- //HOME -->
+
+
+			<!-- ABOUT -->
+			<section id="about">
+
+				<!-- SERVICES -->
+				<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- CONTAINER -->
+					<div class="container">
+
+						<!-- ROW -->
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+								<a class="services_item" href="javascript:void(0);">
+									<p><b>In-Depth Process Knowledge</b> </p>
+									<span>We have more than 15 years of
+										experience in providing data
+										entry services to multiple
+										companies across India. We
+										process more than 1 lakh data
+										entry applications annually for
+										multiple clients across financial
+										investment and insurance
+										space. Through this, we have
+										obtained considerable process
+										knowledge and expertise on all
+										aspects concerning the data
+										entry process. Our firm is
+										assisted by a team of 10+ year
+										experienced Chartered
+										Accountants and Engineers.
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+								<a class="services_item" href="javascript:void(0);">
+									<p><b>Data Collection and KYC Centre</b></p>
+									<span>Apart from providing online
+										data entry services, we also
+										provide physical data
+										collection and KYC centre
+										where end customer can
+										submit data and KYC forms.
+										Our office is located centrally in
+										Ambala city and have proper
+										arrangement for ensuring great
+										customer experience.</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+								<a class="services_item" href="javascript:void(0);">
+									<p><b>Strict Quality Accuracy Compliance </p>
+									<span>We maintain strict control and
+										processes to ensure that
+										accuracy of the inputted data.
+										We serve multiple clients with a
+										high quality data entry
+										requirement and ensure a
+										time-bound high quality
+										delivery.</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+								<a class="services_item" href="javascript:void(0);">
+									<p><b>Large Volume Handling Capability</b></p>
+									<span>We have a vast experience of
+										handling large volume of data
+										entry for 10+ years. We serve
+										some of the biggest corporate
+										clients and provide them high
+										quality & time bound delivery.</span>
+								</a>
+							</div>
+						</div><!-- //ROW -->
+					</div><!-- //CONTAINER -->
+				</div><!-- //SERVICES -->
+
+				<!-- CLEAN CODE -->
+				<div class="cleancode_block">
+
+					<!-- CONTAINER -->
+					<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+						<!-- CASTOM TAB -->
+						<div id="myTabContent" class="tab-content">
+							<div class="tab-pane fade in active clearfix" id="tab1">
+								<p class="title"><b>Mutual fund application processing</b></p>
+								<span>The firm is working on behalf of CAMS (Computer Age Management Services). We do
+									processing of mutual funds
+									investment applications on behalf of 18+ mutual fund companies. We process roughly 1
+									lakh applications annually from mutual fund
+									investors of Ambala District. We process client's KYC, application for new
+									investment purchase and redemptions.
+								</span>
+							</div>
+							<div class="tab-pane fade clearfix" id="tab2">
+								<p class="title"><b>Life insurance application processing</b></p>
+								<span>The firm process the life
+									insurance applications on
+									behalf of TATA AIG. We process
+									client's KYC and application for
+									new insurance purchase. We
+									also manage collection of the
+									periodical insurance premiums
+									(in cash and cheques) from
+									clients.</span>
+							</div>
+							<div class="tab-pane fade clearfix" id="tab3">
+								<p class="title"><b>Auto loan application processing</b></p>
+								<span>The firm handles loan
+									applications on behalf of Hero
+									Fincorp which is engaged in
+									financing of Hero Honda 2 & 3
+									wheelers. We work with
+									numerous local Hero Honda
+									auto dealers and process the
+									loan financing application for
+									new auto purchasers. We
+									process roughly 10000+ auto
+									loan applications annually.
+								</span>
+							</div>
+						</div>
+						<ul id="myTab" class="nav nav-tabs">
+							<li class="active"><a class="i1" href="#tab1" data-toggle="tab"><i></i><span>Mutual
+										fund</span></a></li>
+							<li><a class="i2" href="#tab2" data-toggle="tab"><i></i><span>Life insurance</span></a></li>
+							<li><a class="i3" href="#tab3" data-toggle="tab"><i></i><span>Auto loan</span></a></li>
+						</ul><!-- CASTOM TAB -->
+					</div><!-- //CONTAINER -->
+				</div><!-- //CLEAN CODE -->
+
+				<!-- MULTI PURPOSE -->
+				<!-- //MULTI PURPOSE -->
+			</section><!-- //ABOUT -->
+
+
+			<!-- PROJECTS -->
+			<!-- //PROJECTS -->
+
+
+			<!-- TEAM -->
+			<section id="team">
+
+				<!-- CONTAINER -->
+				<div class="container">
+					<h2><b>Our</b> Team</h2>
+
+					<!-- ROW -->
+					<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+						<!-- TEAM SLIDER -->
+						<div class="owl-demo owl-carousel team_slider">
+
+							<!-- crewman1 -->
+							<div class="item">
+								<div class="crewman_item">
+									<div class="crewman">
+										<img src="images/team/1.jpg" alt="" />
+									</div>
+									<div class="crewman_descr center">
+										<div class="crewman_descr_cont">
+											<p>CA. S.P. Goyal</p>
+											<span>Director</span>
+										</div>
+									</div>
+									<div class="crewman_social">
+										<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
+									</div>
+								</div>
+							</div><!-- crewman1 -->
+
+							<!-- crewman2 -->
+							<div class="item">
+								<div class="crewman_item">
+									<div class="crewman">
+										<img src="images/team/2.jpg" alt="" />
+									</div>
+									<div class="crewman_descr center">
+										<div class="crewman_descr_cont">
+											<p>CA. Mohit Goyal</p>
+											<span>Creative Director</span>
+										</div>
+									</div>
+									<div class="crewman_social">
+										<a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
+									</div>
+								</div>
+							</div><!-- crewman1 -->
+
+							<!-- crewman3 -->
+							<div class="item">
+								<div class="crewman_item">
+									<div class="crewman">
+										<img src="images/team/3.jpg" alt="" />
+									</div>
+									<div class="crewman_descr center">
+										<div class="crewman_descr_cont">
+											<p>CA. Shaifali Goyal</p>
+											<span>Manager</span>
+										</div>
+									</div>
+									<div class="crewman_social">
+										<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
+									</div>
+								</div>
+							</div><!-- crewman3 -->
+
+							<!-- crewman4 -->
+							<div class="item">
+								<div class="crewman_item">
+									<div class="crewman">
+										<img src="images/team/4.jpg" alt="" />
+									</div>
+									<div class="crewman_descr center">
+										<div class="crewman_descr_cont">
+											<p>Neetika Goyal</p>
+											<span>Manager</span>
+										</div>
+									</div>
+									<div class="crewman_social">
+										<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
+									</div>
+								</div>
+							</div><!-- crewman4 -->
+
+							
+						</div><!-- TEAM SLIDER -->
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</section><!-- //TEAM -->
+
+
+			<!-- NEWS -->
+			<!-- //NEWS -->
+		</div><!-- //PAGE -->
+
+		<!-- CONTACTS -->
+		<section id="contacts">
+		</section><!-- //CONTACTS -->
+
+		<!-- FOOTER -->
+		<footer>
+
+			<!-- CONTAINER -->
+			<div class="container">
+
+				<!-- ROW -->
+				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<div class="col-lg-6 col-md-6 col-sm-6 padbot30 foot_about_block">
+						<h4><b>About</b> us</h4>
+						<p>SPG Financial Services ('The Firm') is a proprietorship firm, constituted in 2008, is an experienced data entry company with well-trained,
+							data entry experts, guaranteeing top accuracy in data entry services. We work with multiple clients and offer cost effective data entry
+							solution while ensuring data privacy and strict quality norms ensuring the maximum possible accuracy of data.
+							The firm is owned by Smt. Parveen Goyal W/o CA.S.P Goyal. The Proprietor of the firm is assisted & guided by CA Mohit Goyal & CA
+							Shaifali Goyal & Er Neetika Goyal & a team of technical professional & other staff.</p>
+						<ul class="social">
+							<li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-pinterest-square"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="map_show fa fa-map-marker"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="respond_clear"></div>
+
+					<div class="col-lg-6 col-md-6 padbot30">
+						<h4><b>Contacts</b> Us</h4>
+
+						<!-- CONTACT FORM -->
+						<div class="span9 contact_form">
+							<div id="note"></div>
+							<div id="fields">
+								<form id="contact-form-face" class="clearfix" action="#">
+									<input type="text" name="name" value="Name"
+										onFocus="if (this.value == 'Name') this.value = '';"
+										onBlur="if (this.value == '') this.value = 'Name';" />
+									<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';"
+										onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
+									<input class="contact_btn" type="submit" value="Send message" />
+								</form>
+							</div>
+						</div><!-- //CONTACT FORM -->
+					</div>
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</footer><!-- //FOOTER -->
+
+
+		<!-- MAP -->
+		<div id="map">
+			<a class="map_hide" href="javascript:void(0);"><i class="fa fa-angle-right"></i><i
+					class="fa fa-angle-left"></i></a>
+			<iframe
+				src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed"></iframe>
+		</div><!-- //MAP -->
+
+	</div>
+</body>
+
+</html>
